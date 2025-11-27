@@ -1,5 +1,6 @@
 import React from "react";
 import FeedbackCard from "../feedbackCard/FeedbackCard";
+import MainBtn from "../Mainbtn/MainBtn";
 
 export default function Feedback() {
   return (
@@ -45,7 +46,7 @@ export default function Feedback() {
         writer={`Holly Davies, Marketing Director`}
         image="/src/assets/images/pargon.png"
       />
-      
+      <MainBtn txt="Try it RISK-free"/>
     </div>
   );
 }

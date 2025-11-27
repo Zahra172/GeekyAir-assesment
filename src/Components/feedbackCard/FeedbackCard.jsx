@@ -11,8 +11,8 @@ export default function FeedbackCard({
   spanFirst,
 }) {
   return (
-    <div className={`flex py-24 ${reverse ? "flex-row-reverse" : ""}`}>
-      <div className="w-5/12">
+    <div className={`flex pt-24 pb-8 ${reverse ? "flex-row-reverse" : ""}`}>
+      <div className="w-full lg:w-5/12">
         <h3 className="text-[3.8rem] leading-none font-bold text-[#2E2F35]">
           {spanFirst && (
             <span className="text-[#009387] font-bold mb-4 block">{span}</span>
