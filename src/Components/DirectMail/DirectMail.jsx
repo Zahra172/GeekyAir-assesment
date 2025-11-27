@@ -8,7 +8,7 @@ export default function DirectMail() {
         <br /> it works <span className="text-[#009387]">works</span> like crazy
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  place-items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-0  place-items-center">
         <div className="flex flex-col items-center ">
           <h3 className="text-[#2E2F35] font-bold text-[4rem]">82x</h3>
           <p className="text-sm text-[#58595D]">
