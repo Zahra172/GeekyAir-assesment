@@ -9,7 +9,7 @@ export default function Layout() {
       <Navbar />
 
       <main className="flex-grow min-h-[60vh]">
-        <div className="container mx-auto px-4 md:px-6 lg:px-8">
+        <div className=" mx-auto ">
           <Outlet />
         </div>
       </main>

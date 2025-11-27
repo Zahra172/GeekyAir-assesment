@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function BrandCards({ image1, image2 ,w,h }) {
+export default function BrandCards({ image1, image2 ,w,h  }) {
   return (
     <div className="flex flex-col items-center gap-6">
       <img src={image1} alt="brand 1" className=" object-contain" />
