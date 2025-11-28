@@ -3,7 +3,7 @@ import React from "react";
 export default function Hero() {
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center ">
+      <div className="grid grid-cols-1 pt-5 lg:grid-cols-5 gap-8 items-center ">
         {/* left 3/5 */}
         <div className="lg:col-span-3">
           <h1
@@ -46,13 +46,13 @@ export default function Hero() {
         {/* right 2/5 */}
         <div className="lg:col-span-2 relative w-full overflow-hidden">
           <img
-            src="/src/assets/images/hero1.png"
+            src="/public/images/hero1.png"
             alt="hero image"
             className="w-full lg:w-[550px] xl:w-[650px]"
           />
 
           <img
-            src="/src/assets/images/hero2.png"
+            src="/public/images/hero2.png"
             alt="hero image"
             className="absolute top-0 right-0 w-[18rem] sm:w-[22rem] md:w-[26rem] lg:w-[30rem]"
           />

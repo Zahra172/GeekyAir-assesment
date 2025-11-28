@@ -39,7 +39,7 @@ export default function AddetionalSectionTwo() {
 
         <div className="flex justify-center">
           <img
-            src="/src/assets/images/postpilot.png"
+            src="public/images/postpilot.png"
             className="w-[360px] md:w-full rotate-[8deg]"
             alt=""
           />

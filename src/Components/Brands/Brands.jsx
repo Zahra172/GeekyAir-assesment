@@ -14,22 +14,22 @@ export default function Brands() {
         
         <div className="scroll-up space-y-6">
           <BrandCards
-            image1="/src/assets/images/runGum_image.png"
-            image2="/src/assets/images/rungum_text.png"
+            image1="/public/images/runGum_image.png"
+            image2="/public/images/rungum_text.png"
           />
 
           <BrandCards
-            image1="/src/assets/images/bearBrand_image.png"
-            image2="/src/assets/images/bearBrand_text.png"
+            image1="/public/images/bearBrand_image.png"
+            image2="/public/images/bearBrand_text.png"
           />
           <BrandCards
-            image1="/src/assets/images/promix_image.png"
-            image2="/src/assets/images/promix_text.png"
+            image1="/public/images/promix_image.png"
+            image2="/public/images/promix_text.png"
           />
 
           <BrandCards
-            image1="/src/assets/images/scotch_image.png"
-            image2="/src/assets/images/scotch_txt.png"
+            image1="/public/images/scotch_image.png"
+            image2="/public/images/scotch_txt.png"
             
           />
         </div>
@@ -37,23 +37,23 @@ export default function Brands() {
        
         <div className="scroll-down space-y-6">
           <BrandCards
-            image1="/src/assets/images/promix_image.png"
-            image2="/src/assets/images/promix_text.png"
+            image1="/public/images/promix_image.png"
+            image2="/public/images/promix_text.png"
           />
 
           <BrandCards
-            image1="/src/assets/images/scotch_image.png"
-            image2="/src/assets/images/scotch_txt.png"
+            image1="/public/images/scotch_image.png"
+            image2="/public/images/scotch_txt.png"
             
           />
           <BrandCards
-            image1="/src/assets/images/runGum_image.png"
-            image2="/src/assets/images/rungum_text.png"
+            image1="/public/images/runGum_image.png"
+            image2="/public/images/rungum_text.png"
           />
 
           <BrandCards
-            image1="/src/assets/images/bearBrand_image.png"
-            image2="/src/assets/images/bearBrand_text.png"
+            image1="/public/images/bearBrand_image.png"
+            image2="/public/images/bearBrand_text.png"
           />
         </div>
       </div>

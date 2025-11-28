@@ -7,7 +7,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#" className="flex items-center space-x-3">
           <img
-            src="/src/assets/images/postPilot_logo.png"
+            src="/public/images/postPilot_logo.png"
             className="h-7"
             alt="Logo"
           />

@@ -4,10 +4,10 @@ export default function BrandsRow() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const brands = [
-    "/src/assets/images/obvi.png",
-    "/src/assets/images/bulletproof.png",
-    "/src/assets/images/boom.png",
-    "/src/assets/images/orbitbaby.png",
+    "/public/images/obvi.png",
+    "/public/images/bulletproof.png",
+    "/public/images/boom.png",
+    "/public/images/orbitbaby.png",
   ];
 
   return (
