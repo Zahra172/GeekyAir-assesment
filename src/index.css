@@ -16,3 +16,20 @@
   }
 }
 
+@keyframes scroll-up {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50%); }
+}
+
+@keyframes scroll-down {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(50%); }
+}
+
+.scroll-up {
+  animation: scroll-up 18s linear infinite;
+}
+
+.scroll-down {
+  animation: scroll-down 18s linear infinite;
+}
