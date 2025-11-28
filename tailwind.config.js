@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        grace: ["Covered By Your Grace", "cursive"],
       },
     },
   },

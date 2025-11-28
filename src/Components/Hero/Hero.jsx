@@ -7,7 +7,7 @@ export default function Hero() {
   {/* left 3/5 */}
   <div className="lg:col-span-3">
     <h1 className="text-[5.25rem] font-bold leading-tight">
-      Meet your <span className="text-[#009387] ">Favourite</span> new (old) marketing channel.
+      Meet your <span className=" grace-title text-[5.25rem]">Favourite</span> new (old) marketing channel.
     </h1>
 
     <p className="text-[#58595D] text-lg mt-4">

@@ -5,7 +5,7 @@ export default function DirectMail() {
     <div className="text-center  ">
       <h2 className="pb-14 text-[4rem]  font-bold text-[#2E2F35]">
         Why use direct mail?
-        <br /> it works <span className="text-[#009387]">works</span> like crazy
+        <br /> it works <span className="grace-title ">works</span> like crazy
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-0  place-items-center">

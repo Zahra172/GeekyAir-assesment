@@ -7,7 +7,7 @@ export default function Brands() {
     <div>
       <h2 className="pb-14 text-[4rem] font-bold text-[#2E2F35]">
         Trusted by thousands
-        <br /> of top DTC <span className="text-[#009387]">brands.</span>
+        <br /> of top DTC <span className="grace-title ">brands.</span>
       </h2>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-14 mt-6">

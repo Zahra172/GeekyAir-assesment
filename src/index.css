@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 @layer base {
   html {
     font-family: 'Inter', sans-serif;
   }
 }
+@layer utilities {
+  .grace-title {
+    @apply font-grace text-[60px] leading-[76px] tracking-[-2px] text-center text-[#009387] ;
+  }
+}
+

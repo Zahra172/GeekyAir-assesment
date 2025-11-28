@@ -6,6 +6,8 @@ import Feedback from '../Feedback/Feedback'
 import AddetionalSectionOne from '../AddetionalSectionOne/AddetionalSectionOne'
 import AddetionalSectionTwo from '../AddetionalSectionTwo/AddetionalSectionTwo'
 import LatestTrends from '../LatestTrends/LatestTrends'
+import Metrix from '../Metrix/Metrix'
+import StepsSection from '../StepsSection/StepsSection'
 
 export default function Home() {
   return (
@@ -22,6 +24,12 @@ export default function Home() {
     </div>
     <div className='bg-[#FDF3EA] py-28 px-20'>
       <Feedback/>
+    </div>
+    <div className='pt-28 pb-10 px-20 text-center '>
+      <Metrix/>
+    </div>
+    <div className='py-28 px-20 bg-[#E6F7F8] '>
+      <StepsSection/>
     </div>
     <div className='py-28 px-20 bg-[#EEECFF]'>
       <AddetionalSectionOne/>

@@ -6,7 +6,7 @@ export default function Feedback() {
   return (
     <div className=" ">
       <h2 className="text-center pb-24 text-[4rem] font-bold text-[#2E2F35]">
-        PostPilot makes it a <span className="text-[#009387]">cinch</span> send
+        PostPilot makes it a <span className="grace-title ">cinch</span> send
         personalized, profit-
         <br />
         generating postcards.
