@@ -5,6 +5,7 @@ import DirectMail from '../DirectMail/DirectMail'
 import Feedback from '../Feedback/Feedback'
 import AddetionalSectionOne from '../AddetionalSectionOne/AddetionalSectionOne'
 import AddetionalSectionTwo from '../AddetionalSectionTwo/AddetionalSectionTwo'
+import LatestTrends from '../LatestTrends/LatestTrends'
 
 export default function Home() {
   return (
@@ -27,6 +28,9 @@ export default function Home() {
     </div>
     <div className=' px-20 bg-[#FF6D2C]'>
       <AddetionalSectionTwo/>
+    </div>
+    <div className=' px-20 py-28 bg-[#EEECFF] text-center mx-auto'>
+      <LatestTrends/>
     </div>
     </>
   )

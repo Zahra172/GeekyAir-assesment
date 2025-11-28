@@ -3,7 +3,7 @@ import MainBtn from "../Mainbtn/MainBtn";
 
 export default function Footer() {
   return (
-    <footer className="border-t pt-10 pb-6 px-6 md:px-12 lg:px-20 text-[#2E2F35]">
+    <footer className="border-t py-24 pb-6 px-6 md:px-12 lg:px-20 text-[#2E2F35]">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         <div className="flex flex-col gap-4">
           <img
