@@ -13,9 +13,21 @@ export default function FeedbackCard({
   return (
     <div className={`flex pt-24 pb-8 ${reverse ? "flex-row-reverse" : ""}`}>
       <div className="w-full lg:w-5/12">
-        <h3 className="text-[3.8rem] leading-none font-bold text-[#2E2F35]">
+        <h3
+          className="
+    font-bold text-[#2E2F35] leading-none
+
+    text-2xl           
+    sm:text-3xl        
+    md:text-4xl       
+    lg:text-5xl       
+    xl:text-[3.8rem]  
+  "
+        >
           {spanFirst && (
-            <span className="font-grace text-[#009387] font-bold mb-4 block">{span}</span>
+            <span className="font-grace text-[#009387] font-bold mb-4 block">
+              {span}
+            </span>
           )}
 
           {heading}
@@ -23,7 +35,9 @@ export default function FeedbackCard({
           <br />
 
           {!spanFirst && (
-            <span className="font-grace text-[#009387] font-bold mb-4 block">{span}</span>
+            <span className="font-grace text-[#009387] font-bold mb-4 block">
+              {span}
+            </span>
           )}
         </h3>
 
@@ -42,7 +56,7 @@ export default function FeedbackCard({
 
           <div className="flex justify-between items-end">
             <p className="text-[#A89B90] text-sm font-medium">{writer}</p>
-            <img className="w-14" src={image} alt="image feedback"/>
+            <img className="w-14" src={image} alt="image feedback" />
           </div>
         </div>
       </div>

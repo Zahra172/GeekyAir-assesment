@@ -17,7 +17,7 @@ export default function Home() {
 
       <Hero/>
     </div>
-    <div className='py-28 px-8 text-center'>
+    <div className='py-28 px-20 text-center'>
       <Brands/>
     </div>
     <div className='bg-[#E0F8F2] py-28 '>
