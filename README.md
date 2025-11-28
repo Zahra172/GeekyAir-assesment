@@ -16,6 +16,8 @@ Animations were implemented using CSS and custom keyframes for smooth and contin
    - React Router
    - Vite
    - Custom CSS Animations
+   - font awesoeme
+   - swiper
 
 - Folder Structure
 
