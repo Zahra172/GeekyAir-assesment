@@ -31,7 +31,7 @@ export default function Feedback() {
         heading={`acquisition & retention`}
         quateP={`It's like Klaviyo for direct mail. The results are absolutely insane.`}
         writer={`Ash Melwani, CMO`}
-        image="/public/images/obvi.png"
+        image="/images/obvi.png"
         spanFirst={true}
       />
 
@@ -45,7 +45,7 @@ export default function Feedback() {
             It’s now one of our core marketing channels 
             to increase acquisition & LTV.`}
         writer={`Leah Keith, GM`}
-        image="/public/images/overLander.png"
+        image="/images/overLander.png"
         spanFirst={true}
       />
 
@@ -57,7 +57,7 @@ export default function Feedback() {
         quateP={`The team is so knowledgeable and beyond helpful. I’m blown away by their communication, detail, and attentiveness and
              always feel like they have our best interest in mind. Definitely worth a try.`}
         writer={`Holly Davies, Marketing Director`}
-        image="/public/images/pargon.png"
+        image="/images/pargon.png"
       />
       <MainBtn txt="Try it RISK-free" />
     </div>

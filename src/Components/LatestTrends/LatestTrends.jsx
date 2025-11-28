@@ -3,17 +3,17 @@ import React from "react";
 export default function LatestTrends() {
   const trends = [
     {
-      src: "/public/images/trend1.png",
+      src: "/images/trend1.png",
       paragraph: "3 Low-Cost Campaigns You Must Run to Win BFCM",
       alt: "trend1",
     },
     {
-      src: "/public/images/trend2.jpg",
+      src: "/images/trend2.jpg",
       paragraph: "Postcard Marketing: The Definitive Guide to High ROI [2022]",
       alt: "trend2",
     },
     {
-      src: "/public/images/trend3.jpg",
+      src: "/images/trend3.jpg",
       paragraph: "The Ultimate Guide to Thank You Notes for Ecommerce",
       alt: "trend3",
     },

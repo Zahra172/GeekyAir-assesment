@@ -46,13 +46,13 @@ export default function Hero() {
         {/* right 2/5 */}
         <div className="lg:col-span-2 relative w-full overflow-hidden">
           <img
-            src="/public/images/hero1.png"
+            src="/images/hero1.png"
             alt="hero image"
             className="w-full lg:w-[550px] xl:w-[650px]"
           />
 
           <img
-            src="/public/images/hero2.png"
+            src="/images/hero2.png"
             alt="hero image"
             className="absolute top-0 right-0 w-[18rem] sm:w-[22rem] md:w-[26rem] lg:w-[30rem]"
           />

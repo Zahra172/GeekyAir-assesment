@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
         <div className="flex flex-col gap-4">
           <img
-            src="/public/images/Group.png"
+            src="/images/Group.png"
             alt="eco"
             className="w-20 h-20 object-contain"
           />
@@ -53,7 +53,7 @@ export default function Footer() {
       <div className="mt-10 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-0">
         <div className="flex items-center gap-2">
           <img
-            src="/public/images/postpilot_logo.png"
+            src="/images/postpilot_logo.png"
             alt="PostPilot"
             className="h-6 object-contain"
           />

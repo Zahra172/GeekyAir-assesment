@@ -17,7 +17,7 @@ export default function DirectMail() {
         </div>
 
         <div className="flex flex-col items-center ">
-          <img src="/public/images/whyMail.png" alt="why use mail" className="w-56"/>
+          <img src="/images/whyMail.png" alt="why use mail" className="w-56"/>
           <p className="text-sm text-[#58595D]">
             Your messages get read
           </p>

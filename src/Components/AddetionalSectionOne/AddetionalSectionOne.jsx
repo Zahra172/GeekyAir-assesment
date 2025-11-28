@@ -8,7 +8,7 @@ export default function AddetionalSectionOne() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="relative flex flex-col gap-7 justify-center items-center">
           <img
-          src="/public/images/obviOffer.png"
+          src="/images/obviOffer.png"
             
             className="w-[420px] md:w-[38rem] "
             alt="website offer"
