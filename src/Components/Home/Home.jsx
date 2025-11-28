@@ -8,6 +8,7 @@ import AddetionalSectionTwo from '../AddetionalSectionTwo/AddetionalSectionTwo'
 import LatestTrends from '../LatestTrends/LatestTrends'
 import Metrix from '../Metrix/Metrix'
 import StepsSection from '../StepsSection/StepsSection'
+import SliderSection from '../SliderSection/SliderSection'
 
 export default function Home() {
   return (
@@ -30,6 +31,9 @@ export default function Home() {
     </div>
     <div className='py-28 px-20 bg-[#E6F7F8] '>
       <StepsSection/>
+    </div>
+    <div className='px-20  '>
+      <SliderSection/>
     </div>
     <div className=' px-20 bg-[#EEECFF]'>
       <AddetionalSectionOne/>

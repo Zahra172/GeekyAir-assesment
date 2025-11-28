@@ -5,9 +5,22 @@ import MainBtn from "../Mainbtn/MainBtn";
 export default function Feedback() {
   return (
     <div className=" ">
-      <h2 className="text-center pb-24 text-[4rem] font-bold text-[#2E2F35]">
-        PostPilot makes it a <span className="grace-title ">cinch</span> send
-        personalized, profit-
+      <h2
+        className="
+    text-center 
+    pb-24 
+    font-bold 
+    text-[#2E2F35]
+
+    text-3xl          
+    sm:text-4xl       
+    md:text-5xl      
+    lg:text-6xl       
+    xl:text-[4rem]    
+  "
+      >
+        PostPilot makes it a <span className="grace-title">cinch</span>
+        send personalized, profit-
         <br />
         generating postcards.
       </h2>
@@ -21,22 +34,22 @@ export default function Feedback() {
         image="/src/assets/images/obvi.png"
         spanFirst={true}
       />
-      
-        <FeedbackCard
-          reverse={true}
-          span={`Fight back`}
-          generalP={` Deliver your message to all of your customers — for less than the cost of a click.`}
-          heading={`against iOS updates, jacked-up CPCs & spam folders`}
-          quateP={`PostPilot is our new weapon against sinking email engagement and rising PPC costs.
+
+      <FeedbackCard
+        reverse={true}
+        span={`Fight back`}
+        generalP={` Deliver your message to all of your customers — for less than the cost of a click.`}
+        heading={`against iOS updates, jacked-up CPCs & spam folders`}
+        quateP={`PostPilot is our new weapon against sinking email engagement and rising PPC costs.
              The results and ROI have been outstanding. 
             It’s now one of our core marketing channels 
             to increase acquisition & LTV.`}
-          writer={`Leah Keith, GM`}
-          image="/src/assets/images/overLander.png"
-          spanFirst={true}
-        />
-      
-       <FeedbackCard
+        writer={`Leah Keith, GM`}
+        image="/src/assets/images/overLander.png"
+        spanFirst={true}
+      />
+
+      <FeedbackCard
         span={`you`}
         spanFirst={false}
         heading={`Done for `}
@@ -46,7 +59,7 @@ export default function Feedback() {
         writer={`Holly Davies, Marketing Director`}
         image="/src/assets/images/pargon.png"
       />
-      <MainBtn txt="Try it RISK-free"/>
+      <MainBtn txt="Try it RISK-free" />
     </div>
   );
 }

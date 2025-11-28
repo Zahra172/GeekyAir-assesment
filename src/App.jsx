@@ -5,6 +5,9 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import Layout from './Components/Layout/Layout'
 import Home from './Components/Home/Home'
 import NotFound from './Components/NotFound/NotFound'
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 function App() {
  let router = createBrowserRouter([
