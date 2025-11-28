@@ -21,7 +21,7 @@ export default function LatestTrends() {
   return (
     <>
       <h2 className="pb-20 text-4xl md:text-5xl font-bold leading-tight text-[#2E2F35]">
-        Latest trends & <span className="text-[#009387]">insights</span>
+        Latest trends & <span className="grace-title ">insights</span>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
   {trends.map((card, index) => (

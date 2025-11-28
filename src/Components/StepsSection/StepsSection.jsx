@@ -30,7 +30,7 @@ export default function StepsSection() {
     <section className="  px-6 md:px-16">
       <h2 className="pb-14 text-[4rem] text-center font-bold text-[#2E2F35]">
         Fast launch. Fast results.
-        <br /> <span className="text-[#009387]">Here's how.</span>
+        <br /> <span className="grace-title ">Here's how.</span>
       </h2>
 
       <div className="mt-16 max-w-xl  flex flex-col gap-6">

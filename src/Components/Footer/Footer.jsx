@@ -49,7 +49,7 @@ export default function Footer() {
           </p>
         </div>
       </div>
-
+<hr/>
       <div className="mt-10 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <img
@@ -61,8 +61,12 @@ export default function Footer() {
         </div>
 
         <div className="flex items-center gap-4">
-          <MainBtn txt="Login" className="bg-white text-black hover:bg-[#FF6D2C] transition-all duration-300 hover:text-white" />
-          <MainBtn txt="Try it for free" />
+          <button className=" px-6 shadow-[6px_6px_0px_#2E2F35] border-2 border-[#2E2F35] rounded-[15px] py-3 bg-white text-black hover:bg-[#FF6D2C] hover:text-white transition-all duration-300 ">
+            login
+          </button>
+          <button className="text-white px-6 shadow-[6px_6px_0px_#2E2F35] border-2 border-[#2E2F35] rounded-[15px] py-3 bg-[#FF6D2C] hover:bg-white hover:text-black transition-all duration-300 ">
+            Try it Risk-free
+          </button>
         </div>
       </div>
     </footer>

@@ -14,10 +14,10 @@ export default function AddetionalSectionOne() {
           />
         </div>
 
-        {/* Right Content */}
+        
         <div>
           <h2 className="text-4xl md:text-5xl font-bold leading-tight text-[#2E2F35]">
-            How <span className="text-[#009387]">Obvi</span> Drives <br />
+            How <span className="grace-title ">Obvi</span> Drives <br />
             Profits with Hands-Off <br />
             Postcard Campaigns
           </h2>

@@ -31,7 +31,7 @@ export default function Home() {
     <div className='py-28 px-20 bg-[#E6F7F8] '>
       <StepsSection/>
     </div>
-    <div className='py-28 px-20 bg-[#EEECFF]'>
+    <div className=' px-20 bg-[#EEECFF]'>
       <AddetionalSectionOne/>
     </div>
     <div className=' px-20 bg-[#FF6D2C]'>
